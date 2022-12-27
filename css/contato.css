@@ -1,0 +1,93 @@
+.div-form{
+    background-image: url("/img/fundo-contato.jpg");
+    background-size: 2200px;
+    height: 850px;
+  
+   
+}
+.main-form{
+    display: flex;
+   justify-content: center;
+   margin-right: 900px;
+   
+    
+   
+}
+
+form{
+    
+    margin-top:150px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+    width: 700px;
+
+    align-items: center;
+}
+
+input{
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 600px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    
+}
+
+textarea{
+    display: block;
+    height: 80px;
+    width: 600px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.info{
+    margin-top: 20px;
+}
+.botao{
+    display: flex;
+   justify-content: center;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #835ac5;
+    color: #FFFFFF;
+    
+}
+
+.titulos-formulario{
+    display: flex;
+   justify-content: center;
+   
+}
+
+@media screen and (max-width: 1300px) {
+    .div-form{
+        background-image: url("/img/fundo-contato.jpg");
+        background-size: 2000px;
+        height: 850px;
+      
+    }
+    
+    
+}
+
+@media screen and (max-width: 1618px) {
+    
+}    
